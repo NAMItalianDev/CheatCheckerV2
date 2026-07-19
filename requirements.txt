@@ -1,0 +1,13 @@
+# Requisiti necessari per eseguire CheatChecker
+# Lo script utilizza principalmente librerie native di Python (os, sys, time, sqlite3, ecc.),
+# ma necessita della seguente libreria esterna per leggere i processi attivi e le loro informazioni.
+
+psutil>=5.0.0
+
+# ==========================================
+# COME INSTALLARE:
+# Apri il terminale o il prompt dei comandi e digita:
+# pip install -r requirements.txt
+# oppure
+# pip install psutil
+# ==========================================

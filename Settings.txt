@@ -1,0 +1,53 @@
+# Settings per lo script CheatChecker
+# ======================================================================
+# CONFIGURAZIONE - LISTA CHEAT DA CERCARE
+# ======================================================================
+# Aggiungi o rimuovi i nomi dei cheat da questa lista.
+CHEAT_NAMES = [
+    "Wurst", "Krypton Client", "Meteor Client", "Akira", "Aristois",
+    "Impact", "Future Client", "RusherHack", "LiquidBounce", "Vape V4",
+    "Vape Lite", "Rise", "Novoline", "Astolfo", "Sigma", "Tenacity",
+    "Moon Client", "FDPClient", "Azura", "Flux", "Augustus", "ZeroDay",
+    "Phobos", "Salhack", "Earthhack", "Lambda", "KAMI Blue", "Inertia",
+    "WWE Client", "Seppuku", "Gamesense", "Konas", "Abyss", "Catalyst",
+    "Pyro", "Xulu", "Muirware", "Wurst+2", "Wurst+3", "Boze", "Mathax",
+    "BleachHack", "Raven B+", "Raven B3", "Entropy", "Drip Lite",
+    "Whiteout", "Slinky", "Itami", "Koid", "Slap", "Juul", "7Clicker",
+    "Mango Clicker", "Exhibition", "Remix", "Nodus", "Huzuni", "Wolfram",
+    "Resilience", "WeepCraft", "Metro", "Kronos", "SkillClient", "Jigsaw",
+    "Flare", "Spicy", "Iridium", "Pandora", "Titanium", "Horion", "Zephyr",
+    "Nitrogen", "Packet Client", "Prax", "Strike", "ThunderHack", "NightX",
+    "Alien", "Icarus", "Haru", "Reflex", "Antic", "Crypt", "Skilled Client",
+    "Prestige", "Tuke", "Sight", "Spook", "Elementars", "CreepyTroll",
+    "Borion", "Cyanit", "E-Z Client", "Oqminebot", "Pika", "Kura", "Latency",
+]
+
+# Nomi generici / parole comuni: se trovati vengono segnalati con affidabilità BASSA.
+GENERIC_NAMES = [
+    "Akira", "Impact", "Rise", "Sigma", "Tenacity", "Flux", "Augustus",
+    "ZeroDay", "Phobos", "Lambda", "Inertia", "WWE Client", "Abyss",
+    "Catalyst", "Pyro", "Boze", "Whiteout", "Entropy", "Exhibition",
+    "Remix", "Resilience", "Metro", "Kronos", "Jigsaw", "Flare", "Spicy",
+    "Iridium", "Pandora", "Titanium", "Zephyr", "Nitrogen", "Strike",
+    "Alien", "Icarus", "Haru", "Reflex", "Antic", "Crypt", "Prestige",
+    "Sight", "Spook", "Latency", "Juul", "Pika", "Kura", "Wolfram",
+]
+
+# Cartelle da escludere durante la scansione completa (per velocità).
+EXCLUDED_DIRS = {
+    "windows", "$recycle.bin", "system volume information", "programdata",
+    "perflogs", "msocache", "recovery", "program files", "program files (x86)",
+    "node_modules", ".git",
+}
+
+# Cartelle controllate nella scansione rapida (relative alla home dell'utente).
+QUICK_SCAN_FOLDERS = [
+    "Desktop",
+    "Downloads",
+    "AppData/Roaming/.minecraft",
+    "AppData/Roaming",
+    "AppData/Roaming/PrismLauncher/instances",
+    "AppData/Roaming/MultiMC/instances",
+    "curseforge",
+    "AppData/Local/Temp",
+]
